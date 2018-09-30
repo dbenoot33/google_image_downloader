@@ -13,6 +13,14 @@ Install as `pip install selenium`
 - Add the driver to the path for other tools to use it  
 `export PATH=$PATH:/path-to-extracted-file/geckodriver`  
 
+### Download any number of images from Google image search.
+
+- run as (Use 2/3 according to python version)
+-**Python 2**
+`python image_download_python2.py <query> <number of images>`
+
+-**Python 3**
+`python image_download_python3.py <query> <number of images>`
 
 ### Download any number of images from Google image search.
 
@@ -24,5 +32,3 @@ Install as `pip install selenium`
 where:  
 `<query>`: is the the query to search for.  
 `<number of images>`: min(`<number of images>`, total google results) will be downloaded.  
-
-All the images are downloaded from Google image search. These should be used for educational  purposes only. Copyright is owned by the respective websites.
